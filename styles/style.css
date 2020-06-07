@@ -5,9 +5,8 @@
 
 #container {
   display: grid;
-  grid-gap: 1em;
-  grid-template-rows: repeat(var(--grid-rows), 1fr);
-  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  grid-template-rows: repeat(var(--grid-rows), 35px);
+  grid-template-columns: repeat(var(--grid-cols), 35px);
 }
 
 .grid-item {

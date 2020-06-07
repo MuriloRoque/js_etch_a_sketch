@@ -11,3 +11,9 @@ function makeRows(rows, cols) {
 };
 
 makeRows(16, 16);
+
+$(".grid-item").hover(function(){
+  $(this).css("background-color", "yellow");
+  }, function(){
+  $(this).css("background-color", "pink");
+});
