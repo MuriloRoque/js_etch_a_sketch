@@ -10,7 +10,11 @@ function makeRows(rows, cols) {
   };
 };
 
-makeRows(16, 16);
+reset.addEventListener('click', function (e) {
+  $(".grid-item").css("background-color", "white");
+});
+
+makeRows(50, 50);
 
 $(".grid-item").hover(function(){
   $(this).css("background-color", "yellow");

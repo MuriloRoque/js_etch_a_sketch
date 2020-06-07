@@ -4,9 +4,11 @@
 }
 
 #container {
+  width: 960px;
+  height: 960px;
   display: grid;
-  grid-template-rows: repeat(var(--grid-rows), 35px);
-  grid-template-columns: repeat(var(--grid-cols), 35px);
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
 
 .grid-item {
