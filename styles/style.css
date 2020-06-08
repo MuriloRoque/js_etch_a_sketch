@@ -4,15 +4,22 @@
 }
 
 #container {
-  max-width: 960px;
-  max-height: 960px;
+  width: fit-content;
   display: grid;
-  grid-template-rows: repeat(var(--grid-rows), 30px);
-  grid-template-columns: repeat(var(--grid-cols), 30px);
+  grid-template-rows: repeat(var(--grid-rows), 20px);
+  grid-template-columns: repeat(var(--grid-cols), 20px);
+  border: 1px solid gray;
 }
 
 .grid-item {
-  padding: 1em;
-  border: 1px solid #ddd;
   text-align: center;
+}
+
+.btn{
+  font-size: 1rem;
+  font-weight: 700;
+  width: 12rem;
+  padding: 1rem;
+  margin: 0.5rem 0 2rem 0; 
+  background-color: #d18335;
 }

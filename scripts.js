@@ -38,7 +38,7 @@ start.addEventListener('click', function (e) {
   $(".grid-item").hover(function(){
     $(this).css("background-color", "yellow");
     }, function(){
-    $(this).css("background-color", "pink");
+    $(this).css("background-color", "black");
   });
 });
 
@@ -47,10 +47,6 @@ reset.addEventListener('click', function (e) {
   $(".grid-item").hover(function(){
     $(this).css("background-color", "yellow");
     }, function(){
-    $(this).css("background-color", "pink");
+    $(this).css("background-color", "black");
   });
-});
-
-remove.addEventListener('click', function (e) {
-  $(".grid-item").remove();
 });
