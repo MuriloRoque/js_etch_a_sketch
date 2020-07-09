@@ -2,6 +2,8 @@
 
 # Etch-a-Sketch
 
+![screenshot](images/screenshot.png)
+
 In this project I:
 
 - Used HTML, CSS and Javascript to implement an Etch-a-Sketch board.
